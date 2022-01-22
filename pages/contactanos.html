@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The  Puig Vedelago Group</title>
+    <link rel="stylesheet" href="../assets/estilo.css" />
+    <link rel="shortcut icon" href="../assets/img/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <div id="grilla">
+      <!-- header -->
+      <header class="border">
+        <img
+          class="logo"
+          src="../assets/img/luxury properties.jpg"
+          alt="Logo"
+        />
+      </header>
+
+      <!-- Propeidades a la venta -->
+      <section id="principal" class="border">
+        <div class="container__titulo">Contactanos</div>
+        <div class="form">
+          <form class="check" action="">
+            <label for="Nombre y Apellido">Nombre y Apellido</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Ingres&aacute; tu Nombre Y apellido"
+            />
+
+            <label for="¿C&oacute;mo nos encontraste?">
+              ¿D&oacute;nde nos encontraste?</label
+            >
+            <div class="form__fila">
+              <p>Internet<input type="checkbox" name="Internet" value="1" /></p>
+              <p>
+                Televisi&oacute;n
+                <input type="checkbox" name="Television" value="1" />
+              </p>
+              <p>Radio <input type="checkbox" name="radio" value="1" /></p>
+              <p>Otros<input type="checkbox" name="otros" value="1" /></p>
+            </div>
+
+            <label for="Propiedad">Propiedad de Inter&eacute;s</label>
+            <input type="Propiedad" name="Propiedad" id="Propiedad" />
+
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="name"
+              id="email"
+              placeholder="Ingresá tu correo"
+              required
+            />
+
+            <label for="Telefono">Tel&eacute;fono</label>
+            <input
+              type="telefono"
+              name="Telefono"
+              id="Telefono"
+              placeholder="Ingres&aacute; tu Tel&eacute;fono"
+              required
+            />
+
+            <label for="consulta">Consulta</label>
+            <textarea
+              name="consulta"
+              id="consulta"
+              cols="30"
+              rows="10"
+            ></textarea>
+
+            <p>¿Quer&eacute;s recibir info sobre nosotros?  </p>
+            <div class="obtener_info__fila">
+              <input
+                type="radio"
+                id="recibir_info_si"
+                name="recibir_info_opcion"
+                value="Si"
+                checked="1"
+              />
+              <label for="recibir_info_si">S&iacute;</label>  
+            </div>
+            <div class="obtener_info__fila">
+              <input
+                type="radio"
+                id="recibir_info_no"
+                name="recibir_info_opcion"
+                value="No"
+              />
+               <label for="recibir_info_no">No</label>
+            </div>
+
+            <input type="submit" value="Enviar Formulario" />
+          </form>
+        </div>
+      </section>
+
+      <!-- navegacion -->
+      <nav class="border">
+        <div class="container__titulo">Navegaci&oacute;n</div>
+        <ul class="nav__menu">
+          <li><a href="../index.html">Home</a></li>
+          <li>
+            <a href="../pages/propiedades-en-venta.html">Propiedades a la venta</a>
+          </li>
+          <li>
+            <a href="../pages/propiedades-en-alquiler.html"
+              >Propiedades en el alquiler</a
+            >
+          </li>
+          <li><a href="../pages/nosotros.html">Nosotros</a></li>
+          <li><a href="../pages/contactanos.html">Contactanos</a></li>
+        </ul>
+      </nav>
+
+      <!-- aside -->
+      <aside id="aside" class="border">
+        <div class="container__titulo">Publicidad</div>
+        <div class="aside__publicidad">
+          <div class="aside__publicidad__item">
+            <a
+              href="https://propertyspark.com/top-20-incredible-houses-for-sale-in-miami-florida/"
+            >
+              <img
+                src="../assets/img/Miami1.jpg"
+                alt="Imagen de publicidad de Miami"
+              />
+              <div class="aside__publicidad__item__texto">
+                Casas en Miami.<br />
+                ¡Compre las mejores casas en Miami!
+              </div>
+            </a>
+          </div>
+          <div class="aside__publicidad__item">
+            <a
+              href="https://propertyspark.com/top-20-incredible-houses-for-sale-in-miami-florida/"
+            >
+              <img
+                src="../assets/img/miami2.jpg"
+                alt="Imagen de publicidad de Miami"
+              />
+              <div class="aside__publicidad__item__texto">
+                ¿Buscando casas?<br />
+                ¡Miami es tu lugar!
+              </div>
+            </a>
+          </div>
+          <div class="aside__publicidad__item">
+            <a
+              href="https://propertyspark.com/top-20-incredible-houses-for-sale-in-miami-florida/"
+            >
+              <img
+                src="../assets/img/miami3.jpg"
+                alt="Imagen de publicidad de Miami"
+              />
+              <div class="aside__publicidad__item__texto">
+                ¿Busc&aacute;s un destino?<br />
+                Miami podr&iacute;a ser lo que necesit&aacute;s!
+              </div>
+            </a>
+          </div>
+        </div>
+      </aside>
+
+      <!-- footer -->
+      <footer class="border">
+        <div class="container__titulo">Seguinos en nuestras redes</div>
+        <div id="redes" class="redes">
+          <div class="footer__item">
+            <a href="#" class="footer__link">
+              <img src="../assets/img/facebook.svg" alt="Logo de Facebook" />
+            </a>
+          </div>
+          <div class="footer__item">
+            <a href="#" class="footer__link">
+              <img src="../assets/img/instagram.svg" alt="Logo de Instagram" />
+            </a>
+          </div>
+          <div class="footer__item">
+            <a href="#" class="footer__link">
+              <img src="../assets/img/twitter.svg" alt="Logo de Twitter" />
+            </a>
+          </div>
+          <div class="footer__item">
+            <a href="#" class="footer__link">
+              <img src="../assets/img/youtube.svg" alt="Logo de Youtube" />
+            </a>
+          </div>
+          <div class="footer__item">
+            <a href="#" class="footer__link">
+              <img src="../assets/img/whatsapp.png" alt="Logo de Whatsapp" />
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
