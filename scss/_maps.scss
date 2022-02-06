@@ -1,0 +1,22 @@
+  
+  $mapCards:(card:rgb(247, 237, 158), tabla:rgb(204, 190, 96), card_text: rgb(71, 50, 50));
+
+@each $cards, $color in $mapCards{
+    .#{$cards} { 
+        color: $color;
+    }
+}
+
+
+
+// MAP- GET
+
+$estilo:(
+    color:rgb(255, 255, 205),
+    tamFuente:15px,
+);
+
+.card{
+  background-color:  map-get($estilo, color );
+  font-size: map-get($estilo , tamFuente);
+}
